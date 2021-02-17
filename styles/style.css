@@ -14,6 +14,7 @@ body {
   color: #333;
   display: flex;
   flex-direction: column;
+  line-height: 1.5em;
 }
 
 button {
@@ -87,6 +88,7 @@ a:active {
   align-items: center;
   margin: 0;
   padding: 1em 0em;
+  letter-spacing: 0.1em;
 }
 
 .navigation a {
