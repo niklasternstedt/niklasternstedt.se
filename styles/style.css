@@ -14,14 +14,18 @@ body {
   color: #333;
   display: flex;
   flex-direction: column;
-  line-height: 1.5em;
+  line-height: 1.5rem;
+}
+
+h1 {
+  line-height: 2rem;
 }
 
 button {
-  padding: 0.5em;
+  padding: 0.5rem;
   background-color: #333;
   color: #fff;
-  font-size: 1.3em;
+  font-size: 1.3rem;
   width: 100%;
   border: none;
   border-radius: 40px;
@@ -87,14 +91,14 @@ a:active {
   flex-direction: column;
   align-items: center;
   margin: 0;
-  padding: 1em 0em;
-  letter-spacing: 0.1em;
+  padding: 1rem 0rem;
+  letter-spacing: 0.1rem;
 }
 
 .navigation a {
   color: #fff;
-  padding-bottom: 1em;
-  font-size: 1.5em;
+  padding-bottom: 1rem;
+  font-size: 1.5rem;
   text-decoration: none;
 }
 
@@ -107,7 +111,7 @@ a:active {
 }
 
 .background {
-  margin-top: 2em;
+  margin-top: 2rem;
 }
 
 .container {
@@ -132,8 +136,8 @@ a:active {
 .posts {
   display: block;
   background-color: #fff;
-  padding: 1em;
-  margin-bottom: 1em;
+  padding: 1rem;
+  margin-bottom: 1rem;
 }
 
 .blog-img {
@@ -146,12 +150,22 @@ a:active {
   justify-content: center;
 }
 
+.blog-post-date {
+  font-size: 0.8rem;
+  color: #666060;
+}
+
+.blog-post-image {
+  max-width: 100%;
+  display: block;
+}
+
 .btn:link, .btn:visited {
   display: inline-block;
-  padding: 0.5em 3em;
+  padding: 0.5rem 3rem;
   font-weight: 300;
   text-decoration: none;
-  border-radius: 1em;
+  border-radius: 1rem;
   -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
   transition: background-color 0.2s, border 0.2s, color 0.2s;
   background-color: #333;
@@ -163,19 +177,19 @@ a:active {
 }
 
 input[type=text]{
-  margin-bottom: 3em;
+  margin-bottom: 3rem;
   width: 100%;
-  padding: 1em;
+  padding: 1rem;
 }
 
 input[type=email] {
-  margin-bottom: 3em;
+  margin-bottom: 3rem;
   width: 100%;
-  padding: 1em;
+  padding: 1rem;
 }
 
 footer {
-  padding: 3em;
+  padding: 3rem;
   border-top: 4px solid #333;
 }
 
@@ -185,12 +199,12 @@ footer {
     flex-direction: row;
     justify-content: center;
     margin: 0;
-    padding: 1em 1em;
+    padding: 1rem 1rem;
     list-style: none;
   }
 
 .navigation a {
-    padding: 1em;
+    padding: 1rem;
   }
 
 .flex-container {
@@ -198,7 +212,7 @@ footer {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin-top: 1.2em;
+  margin-top: 1.2rem;
 }
 
 .btn-blog:link, .btn-blog:visited {
@@ -214,14 +228,14 @@ button {
 }
 
 .intro {
-  margin-bottom: 0em;
+  margin-bottom: 0rem;
 }
 
 input[type=text]{
-  margin-bottom: 3.2em;
+  margin-bottom: 3.2rem;
 }
 
 input[type=email] {
-  margin-bottom: 3.2em;
+  margin-bottom: 3.2rem;
 }
 }
