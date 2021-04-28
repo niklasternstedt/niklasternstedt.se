@@ -11,7 +11,11 @@ html {
 body {
   margin: 0;
   background-color: #fff;
+<<<<<<< HEAD
   color: #000;
+=======
+  color: #333;
+>>>>>>> ea763323a19cb282fb9ee426efca219bbc2afeec
   display: flex;
   flex-direction: column;
   line-height: 1.5rem;
@@ -48,7 +52,10 @@ a:visited {
   color: #333;
   text-decoration: none;
   border-bottom: 1px transparent #333;
+<<<<<<< HEAD
 
+=======
+>>>>>>> ea763323a19cb282fb9ee426efca219bbc2afeec
 }
 
 a:hover,
@@ -57,7 +64,10 @@ a:active {
     border-bottom: 1px solid #333;
     -webkit-transition: border-bottom 0.2s, color 0.2s;
     transition: border-bottom 0.1s, color 0.1s;
+<<<<<<< HEAD
 
+=======
+>>>>>>> ea763323a19cb282fb9ee426efca219bbc2afeec
 }
 
 .skip {
@@ -186,8 +196,11 @@ footer {
     flex-direction: row;
     justify-content: right;
     margin: 0 4rem 0 0;
+<<<<<<< HEAD
     padding: 1rem 1rem;
     list-style: none;
+=======
+>>>>>>> ea763323a19cb282fb9ee426efca219bbc2afeec
   }
 
 .navigation a {
